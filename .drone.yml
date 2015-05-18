@@ -1,0 +1,6 @@
+script:
+  - echo `pwd`
+  - ls -la
+  - go get github.com/tools/godep
+services:
+  - postgresql
